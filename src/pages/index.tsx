@@ -23,7 +23,7 @@ function Home({ skills }: IProps) {
 		<>
 			<SeoHead
 				title="Frieren"
-				description="so"
+				description="My first Website"
 			/>
 
 			<Container>

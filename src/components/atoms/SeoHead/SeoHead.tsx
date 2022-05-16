@@ -46,7 +46,7 @@ const SeoHead: FC<HeadProps> = ({
 			<script
 				type="application/ld+json"
 				dangerouslySetInnerHTML={{
-					__html: `{"@context":"http://schema.org","@type":"WebSite","name":"JacobHerper.com","alternateName":"Jacob Herper","url":"https://jacobherper.com/","description":"Front-End Software Engineer with a focus on React.js and TypeScript. I have more than 10 years experience working in software engineering.","image":"${image}"}`,
+					__html: `{"@context":"http://schema.org","@type":"WebSite","name":"","alternateName":"Jacob Herper","url":"https://jacobherper.com/","description":"Front-End Software Engineer with a focus on React.js and TypeScript. I have more than 10 years experience working in software engineering.","image":"${image}"}`,
 				}}
 			/>
 			<script

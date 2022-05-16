@@ -30,7 +30,7 @@ function About({ jobs, education }: IProps) {
 		<>
 			<SeoHead
 				title="About"
-				description="so"
+				description="Apa itu cinta"
 			/>
 
 			<Container>
