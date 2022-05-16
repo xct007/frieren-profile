@@ -18,7 +18,7 @@ const SocialIcons: FC = () => {
 			</li>
 			<li>
 				<a
-					href="https://wa.me/628280781433"
+					href="https://wa.me/6282280781433"
 					target="_blank"
 					rel="noopener noreferrer"
 					title="WhatsApp"

@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { getAllDocuments } from 'Utils/api';
 import orderBy from 'lodash.orderby';
 import styled from 'styled-components';
