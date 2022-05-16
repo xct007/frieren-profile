@@ -7,10 +7,12 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 		'JavaScript',
 		'HTML',
         'Python',
+        'English language',
 		'Mobile legends',
 		'Clash of Clans',
 		'Anime',
 		'Manga',
+        'BlackPink'
 	];
 	const frameworks = ['Laravel', 'Vue.js', 'Nuxt.js'];
 	const databases = ['MySQL', 'PostgreSQL', 'Firebase'];

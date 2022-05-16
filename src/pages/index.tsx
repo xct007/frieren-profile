@@ -37,7 +37,7 @@ function Home({ skills }: IProps) {
 					Kamu bisa tanya saya tentang{' '}
 					<Typed
 						loop
-						typeSpeed={80}
+						typeSpeed={100}
 						backSpeed={20}
 						strings={talkAbout}
 						smartBackspace

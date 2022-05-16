@@ -37,9 +37,11 @@ function About({ jobs, education }: IProps) {
 				<Headline>About Me.</Headline>
 				<h3>Cinta</h3>
 				<p></p>
-				<p>Dalam hal cinta saya lebih condong ke tidak mau bercinta, njir :v</p>
-				<p>Cinta hanyalah sebuah kata yang terucap jika kita sedang melalui sebuah peristiwa yang biasa disebut "jatuh" kemudian di tambahkan sebuah kata yang memiliki sekian makna yaitu "cinta" dan terbentuk lah istilah "Jatuh cinta".</p>
+				<p>Sebuah kata yang terucap jika kita sedang melalui sebuah peristiwa yang biasa disebut "jatuh" kemudian di tambahkan sebuah kata yang memiliki sekian makna yaitu "cinta" dan terbentuk lah istilah "Jatuh cinta".</p>
 
+				<p>Dan ketika semua hal yang berhubungan dengan cinta akan menjadi sebuah tanda tanya bagi kita yang bingung akan rasa yang dirasa, seperti apa itu, bagaimana itu, mengapa itu, siapa itu.</p>
+				<p>Seakan semua nya tidak bermakna, apa yang di rasa, seperti apa yang akan dirasa, kebahagian, kesedihan, ketakutan, cemburu. Reaksi kompleks yang begitu banyak melibatkan elemen pengalaman, perilaku, dan fisiologis. </p>
+				<p>Karena itulah dalam hal cinta saya lebih condong ke tidak mau bercinta, njir :v</p>
 				<h2>Pendidikan</h2>
 				{education.map((edu) => (
 					<Education education={edu} key={edu.course} />
