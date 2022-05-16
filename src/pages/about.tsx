@@ -62,7 +62,7 @@ function About({ jobs, education }: IProps) {
 				))}
 
 				<Center>
-					<a href="/Curriculum Vitae.pdf" target="_blank">
+					<a href="/rose.jpeg" target="_blank">
 						Download a copy of my CV
 					</a>
 				</Center>
