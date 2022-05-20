@@ -29,17 +29,7 @@ function Home({ skills }: IProps) {
 			<Container>
 				<Headline>
 					Oit,
-					<wbr /> Welcome{' '}
-					<Typed
-						typeSpeed={300}
-						backSpeed={20}
-						strings={['Mate']}
-						smartBackspace
-						backDelay={1000}
-						loopCount={0}
-						showCursor
-						cursorChar="|"
-					/>.
+					<wbr /> Welcome.
 				</Headline>
 				<p>
                 My Name Is David Stefen Alvianus.

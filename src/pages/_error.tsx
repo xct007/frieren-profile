@@ -37,7 +37,7 @@ function Error({ statusCode }: { statusCode: number }) {
 	return (
 		<>
 			<SeoHead
-				title={`${statusCode} ${errorMessage} - Jacob Herper - Front-End Software Engineer`}
+				title={`${statusCode} ${errorMessage}`}
 				description=""
 				meta={[
 					{
