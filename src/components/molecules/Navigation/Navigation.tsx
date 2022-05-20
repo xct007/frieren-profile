@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { FC } from 'react';
 import Link from 'next/link';
 import { List, StyledNavigation } from './styles';
@@ -23,7 +24,7 @@ const Navigation: FC<NavigationProps> = ({ onClick }) => {
 					</Link>
 				</li>
 				<li>
-					<Link href="https:/frieren.herokuapp.com" target="_blank">
+					<Link href="https:/frieren.herokuapp.com">
 						<a target="_blank">Rest APIs</a>
 					</Link>
 				</li>
