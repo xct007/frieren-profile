@@ -46,7 +46,7 @@ function About({ jobs, education }: IProps) {
 					I speak three languages: Besemah, Indonesian, and English.
 				</p>
 
-				<h2>Experience</h2>
+				<h2>Project</h2>
 				{jobs.slice(0, loadedJobs).map((job, i) => (
 					<Position job={job} key={job.company + i} />
 				))}
