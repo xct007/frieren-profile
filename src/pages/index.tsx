@@ -22,8 +22,8 @@ function Home({ skills }: IProps) {
 	return (
 		<>
 			<SeoHead
-				title="Frieren"
-				description="My first Website"
+				title="David - Frieren"
+				description="ayang Rose"
 			/>
 
 			<Container>
