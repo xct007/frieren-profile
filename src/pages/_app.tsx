@@ -40,7 +40,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
 	return (
 		<>
-			<ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
+			<ThemeProvider theme={theme === 'dark' ? darkTheme : lightTheme}>
 				<GlobalStyles />
 				<Layout>
 					<Component {...pageProps} />
