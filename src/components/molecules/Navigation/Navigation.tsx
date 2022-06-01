@@ -24,9 +24,9 @@ const Navigation: FC<NavigationProps> = ({ onClick }) => {
 					</Link>
 				</li>
 				<li>
-					<Link href="https:/frieren.herokuapp.com">
-						<a target="_blank">Rest APIs</a>
-					</Link>
+					
+						<a href="https:/frieren.herokuapp.com" target="_blank">Rest APIs</a>
+					
 				</li>
 				<li className="desktop-only">
 					<ThemeToggle />
