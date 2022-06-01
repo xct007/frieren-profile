@@ -28,7 +28,8 @@
 		"test:ci": "jest --ci",
 		"test:coverage": "jest --selectProjects test --coverage",
 		"test:watch": "jest --selectProjects test --watch ",
-		"test": "jest --selectProjects test"
+		"test": "jest --selectProjects test",
+                "export: "next export"
 	},
 	"dependencies": {
 		"@babel/runtime": "^7.14.6",
