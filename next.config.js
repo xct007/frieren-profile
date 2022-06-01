@@ -1,4 +1,5 @@
 module.exports = {
+        target: "serverless",
 	poweredByHeader: false,
 	assetPrefix: process.env.ASSET_HOST || '',
 	productionBrowserSourceMaps: process.env.NODE_ENV === 'production',
