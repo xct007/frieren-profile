@@ -19,7 +19,7 @@ const SeoHead: FC<HeadProps> = ({
 	description,
 	author = 'Rose_are_rosie',
 	keywords,
-	image = 'https://frieren.my.id/rose.jpeg ',
+	image = 'https://itsrose.my.id/rose.jpeg ',
 	meta,
 }) => {
 	return (
@@ -30,7 +30,7 @@ const SeoHead: FC<HeadProps> = ({
 			<meta name="og:title" content={title} />
 			<meta name="og:description" content={description} />
 			<meta name="og:type" content="website" />
-			<meta name="og:url" content="https://frieren.my.id/" />
+			<meta name="og:url" content="https://itsrose.my.id/" />
 			<meta name="twitter:card" content="summary" />
 			<meta name="twitter:title" content={title} />
 			<meta name="twitter:description" content={description} />
@@ -46,7 +46,7 @@ const SeoHead: FC<HeadProps> = ({
 			<script
 				type="application/ld+json"
 				dangerouslySetInnerHTML={{
-					__html: `{"@context":"http://schema.org","@type":"WebSite","name":"","alternateName":"Frieren","url":"https://frieren.my.id/","description":"Rose - Frieren","image":"${image}"}`,
+					__html: `{"@context":"http://schema.org","@type":"WebSite","name":"","alternateName":"Frieren","url":"https://itsrose.my.id/","description":"Rose - Frieren","image":"${image}"}`,
 				}}
 			/>
 			<script

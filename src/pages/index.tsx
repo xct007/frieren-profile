@@ -28,13 +28,13 @@ function Home({ skills }: IProps) {
 
 			<Container>
 				<Headline>
-					Oit,
+					Hi,
 					<wbr /> Welcome.
 				</Headline>
 				<p>
                 My Name Is David Stefen Alvianus.
 					<br />
-					You can ask me about{' '}
+					{' '}
 					<Typed
 						loop
 						typeSpeed={100}
