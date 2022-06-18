@@ -29,7 +29,7 @@ function Home({ skills }: IProps) {
 			<Container>
 				<Headline>
 					Hi,
-					<wbr /> Welcome.
+					<wbr /> Welcome. 👋
 				</Headline>
 				<p>
                 My Name Is David Stefen Alvianus.
