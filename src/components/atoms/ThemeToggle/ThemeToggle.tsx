@@ -22,7 +22,7 @@ const ThemeToggle = () => {
 			onClick={handleToggle}
 			title={`Switch to ${darkTheme ? 'light' : 'dark'} theme`}
 		>
-			{lightTheme ? <Dark /> : <Light />}
+			{darkTheme ? <Dark /> : <Light />}
 		</StyledThemeToggle>
 	);
 };
