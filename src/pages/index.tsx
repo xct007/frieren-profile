@@ -18,12 +18,6 @@ function Home({ skills }: IProps) {
 	const { technologies, frameworks } = skills;
 
 	const talkAbout = [...technologies];
-    const ucapan = [
-        'Welcome',
-        'Selamat Datang',
-        'Sugeng rawuh',
-
-    ]
 
 	return (
 		<>
@@ -35,19 +29,7 @@ function Home({ skills }: IProps) {
 			<Container>
 				<Headline>
 					Hi,
-					<wbr />{' '}
-					<Typed
-						loop
-						typeSpeed={100}
-						backSpeed={20}
-						strings={ucapan}
-						smartBackspace
-						backDelay={1000}
-						loopCount={0}
-						showCursor
-						cursorChar="|"
-					/>
-					.👋
+					<wbr /> Welcome. <span>👋</span>
 				</Headline>
 				<p>
                 My Name Is David Stefen Alvianus.
