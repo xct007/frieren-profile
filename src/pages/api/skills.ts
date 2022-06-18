@@ -4,7 +4,6 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 
 export default (req: NextApiRequest, res: NextApiResponse) => {
 	const technologies = [
-		'If you have any questions concerning JavaScript, please do not hesitate to contact me',
         'You can ask me about Python',
         'You are welcome to inquire about the English language',
 		`You can ask me about anime if you're a weeb`,
@@ -13,8 +12,8 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
         'You can ask me about love',
         "You can inquire as to why I am alone",
         "You are welcome to inquire as to why I am lonely",
-        "You are free to ask me anything you want",
-        "Ask ask ask ask anythink"
+		'If you have any questions concerning JavaScript, please do not hesitate to contact me',
+        "Ask ask ask ask anythings"
 	];
     const greetings = ['mate']
 	const frameworks = ['Laravel', 'Vue.js', 'Nuxt.js'];
