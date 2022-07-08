@@ -3,7 +3,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 export default (req: NextApiRequest, res: NextApiResponse) => {
-	const AboutMe = [
+	const technologies = [
         'You can ask me about JavaScript',
 	'You can ask me about Python',
         'You can ask me about English Language',
@@ -13,6 +13,6 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 	
 	];
 	res.status(200).json({
-		AboutMe
+		technologies
 	});
 };
