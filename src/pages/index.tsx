@@ -15,8 +15,8 @@ interface IProps {
 }
 
 function Home({ skills }: IProps) {
-	const { AboutMe } = skills;
-	const TalkAbout = [...AboutMe];
+	const { technologies } = skills;
+	const TalkAbout = [...technologies];
 	return (
 		<>
 			<SeoHead
