@@ -15,10 +15,8 @@ interface IProps {
 }
 
 function Home({ skills }: IProps) {
-	const { technologies, frameworks } = skills;
-
-	const talkAbout = [...technologies];
-
+	const { AboutMe } = skills;
+	
 	return (
 		<>
 			<SeoHead
@@ -39,7 +37,7 @@ function Home({ skills }: IProps) {
 						loop
 						typeSpeed={100}
 						backSpeed={20}
-						strings={talkAbout}
+						strings={AboutMe}
 						smartBackspace
 						backDelay={1000}
 						loopCount={0}
